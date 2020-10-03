@@ -26,3 +26,25 @@ Simply open a new terminal in the directory and type:
 
 * **F. Strohm** - [StrohmFn](https://github.com/StrohmFn)
 * **C. Tasci** - [StraysWonderland](https://github.com/StraysWonderland)
+
+## Experimental Results
+
+### Englisch testset
+
+|Class | Mono-lingual | Multi-lingual | Cross-language
+|:--|:--|:--|:--|
+|Sadness | 0.000 | 0.015| 0.015
+|Anger |0.019 |0.014| 0.014
+|Pleasure| 0.043 |0.010| 0.120
+|Joy| 0.942| 0.985| 0.864
+|MICRO| 0.421| 0.432| 0.405
+
+### French testset
+
+Class | Mono-lingual | Multi-lingual | Cross-language
+:--|:--|:--|:--|
+Sadness| 0.070 |0.000 |0.230
+Anger| 0.200 |0.200 |0.200
+|Pleasure| 0.350 |0.035 |0.357
+Joy| 0.754| 0.912 |0.403
+MICRO| 0.533 |0.524 |0.359
